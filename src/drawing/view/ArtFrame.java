@@ -7,12 +7,14 @@ public class ArtFrame extends JFrame
 {
 	private ArtController baseController;
 	private DrawingPanel appPanel;
+	private GraphPanel graphPanel;
 	
 	public ArtFrame(ArtController baseController)
 	{
 		super();
 		this.baseController = baseController;
 		appPanel = new DrawingPanel(baseController);
+
 		
 		setupFrame();
 	}

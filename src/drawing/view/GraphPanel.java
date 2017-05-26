@@ -23,7 +23,7 @@ public class GraphPanel extends JPanel
 			
 			this.setMinimumSize(new Dimension(250, 250));
 		}
-		
+		@Override
 		protected void paintComponent(Graphics basic)
 		{
 			graph.clear();
